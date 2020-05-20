@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	width: 100%;
+	height: 400px;
+	background-image: url(img/mv.jpg);
+	background-size: cover;
+	background-position: bottom;
+}
+.hedline {
+	padding-top: 20px;
+	padding-left: 20px;
+	color: gray;
+}
+
+main {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin: 0 auto;
+	text-align: center;
+	width: 840px;
+}
+.box-item {
+	width: 840px;
+	display: inline-block;
+	text-align: left;
+	padding-bottom: 30px;
+	border-bottom: 1px solid gray;
+	margin-bottom: 30px;
+}
